@@ -12,8 +12,8 @@ def Motor_setup(pwr_pin):
     print('Motor Setup...')
 
 def Motor_run(time):
-    GPIO.ouput(pwr_pin, GPIO.HIGH)
+    GPIO.output(pwr_pin, GPIO.HIGH)
     print('Motor running...')
     time.sleep(time)
-    GPIO.ouput(pwr_pin, GPIO.LOW)
+    GPIO.output(pwr_pin, GPIO.LOW)
     print('Motor Finished')
